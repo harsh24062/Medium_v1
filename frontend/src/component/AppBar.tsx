@@ -11,6 +11,11 @@ const AppBar = () => {
 
       {/* Actions */}
       <div className="flex items-center gap-6">
+        <Link to={"/blogs"}>
+        <button className="px-4 py-2 rounded-full bg-gradient-to-r from-orange-500 via-pink-600 to-rose-600 text-white font-medium shadow hover:scale-105 transition-transform">
+          See Blogs
+        </button>
+        </Link>
         <Link to={"/write"}>
         <button className="px-4 py-2 rounded-full bg-gradient-to-r from-orange-500 via-pink-600 to-rose-600 text-white font-medium shadow hover:scale-105 transition-transform">
           Write
